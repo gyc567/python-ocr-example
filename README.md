@@ -1,8 +1,8 @@
-[![HitCount](http://hits.dwyl.io/ro6ley/python-ocr-example.svg)](http://hits.dwyl.io/ro6ley/python-ocr-example)
 
-# PyTesseract - Simple Python Optical Character Recognition
 
-This repository contains the code for this [blogpost](https://stackabuse.com/pytesseract-simple-python-optical-character-recognition/).
+# OCR - POC 
+
+This code  is for OCR POC
 
 ## Getting Started
 
@@ -11,15 +11,16 @@ This repository contains the code for this [blogpost](https://stackabuse.com/pyt
 Kindly ensure you have the following installed on your machine:
 
 - [ ] [Python 3](https://realpython.com/installing-python/)
-- [ ] [Tesseract](https://github.com/tesseract-ocr/tesseract/wiki#installation)
+- [ ] [Tesseract](https://github.com/tesseract-ocr/tesseract/wiki#installation)(after install Tesseract,pls config the ENV PATH for Tesseract)
 - [ ] [Git]()
-- [ ] An IDE or Editor of your choice
+- [ ] poppler(After install Poppler,pls config the ENV PATH for Poppler): mac:http://macappstore.org/poppler/  or win:http://blog.alivate.com.au/poppler-windows/
+- [ ] An IDE or Editor of your choice(PyCharm)
 
 ### Running the Application
 
 1. Clone the repository
 ```
-$ git clone https://github.com/ro6ley/python-ocr-example.git
+$ git clone https://github.com/gyc567/python-ocr-example.git
 ```
 
 2. Check into the cloned repository
@@ -42,8 +43,4 @@ $ pip install -r requirements.txt
 $ python app.py
 ```
 
-## Contribution
-
-Please feel free to raise issues using this [template](./.github/ISSUE_TEMPLATE.md) and I'll get back to you.
-
-You can also fork the repository, make changes and submit a Pull Request using this [template](./.github/PULL_REQUEST_TEMPLATE.md).
+   5.ocr for pdf: ocr_pdf.py
