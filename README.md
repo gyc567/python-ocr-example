@@ -39,8 +39,16 @@ $ pip install -r requirements.txt
 ```
 
 4. Run OCR server
-```
+```markdown
 $ python app.py
 ```
 
-   5.ocr for pdf: ocr_pdf.py
+  5.ocr for pdf
+
+```markdown
+$ python ocr_pdf.py
+```
+
+  
+
+  
