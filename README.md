@@ -38,12 +38,13 @@ $ pipenv install && pipenv shell
 $ pip install -r requirements.txt
 ```
 
-4. Run OCR server
+5. Run OCR server
 ```markdown
 $ python app.py
 ```
+visit: http://127.0.0.1:5000/upload
 
-  5.ocr for pdf
+6.ocr for pdf
 
 ```markdown
 $ python ocr_pdf.py
