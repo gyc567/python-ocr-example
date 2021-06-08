@@ -1,10 +1,10 @@
 -i https://pypi.org/simple/
-click==7.0
-flask==1.0.2
-itsdangerous==1.1.0
-jinja2==2.10.3
-markupsafe==1.1.1
-pillow==6.2.0
-pytesseract==0.2.6
-werkzeug==0.16.0
+click==8.0.1
+flask==1.1.1
+itsdangerous==2.0.1
+jinja2==3.0.1
+markupsafe==2.0.1
 pdf2image==1.12.1
+pillow==8.2.0
+pytesseract==0.3.2
+werkzeug==2.0.1
